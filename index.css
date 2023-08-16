@@ -1,0 +1,84 @@
+*{
+    font-family: "Inter";
+}
+#menusuperior{
+    background-color: #303030;
+    padding: 100px;
+    color: white;
+}
+#textomenusuperior{
+    font-size: 40px;
+}
+#menuinformacao{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 50px;
+    margin-left: 0px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sub{
+    font-size: small;
+    
+}
+#sub1{
+margin-left: 140px;
+}
+#sub2{
+margin-left: 150px;    
+}
+#sub3{
+   margin-left: 10px; 
+}
+#menuimg{
+    display: grid;
+    grid-auto-flow: column;
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+#textomenuimg{
+    margin-top: 200px;
+}
+#titulomenuimg{
+    font-size: 30px;
+}
+#titulomenuinferior{
+    text-align: center;
+    color: white;
+    
+}
+#menuinferior{
+    background-color: #303030;
+    padding-top: 50px;
+    padding-bottom: 25px;
+
+}
+.inputinferior{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 475px;
+}
+#button{
+    background: #C07212;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 560px;
+    color: white;
+    margin-top: 35px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#button:hover{
+    background-color: #318fb8;
+    color: white;
+    transform: translatey(-7px);
+    box-shadow: 0px 15px 20px #050505;
+
+}
